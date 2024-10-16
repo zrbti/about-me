@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços TI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: cadetblue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+        }
+        .services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .service {
+            flex: 1 1 30%;
+            margin: 10px;
+            padding: 20px;
+            background: #e9ecef;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f1f1f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+            .service {
+                flex: 1 1 80%; 
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header, section, footer {
+                margin: 10px; 
+                padding: 15px; 
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.2em; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Miguel Rangel</h1>
+    <p>Serviços para criação de sites e manutenção</p>
+</header>
+
+<section>
+    <h2>Quem sou eu</h2>
+    <p>Sou estudante de Tecnologia da Informação e, com base no conhecimento adquirido durante o curso, estou preparado para desempenhar as funções de um técnico de informática. Estou em busca de oportunidades na área, onde posso aplicar minhas habilidades e continuar aprendendo.</p>
+</section>
+
+<section>
+    <h2>Qualidades</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Resolução de Problemas</h3>
+            <p>Capacidade de identificar e solucionar problemas técnicos de forma eficiente.</p>
+        </div>
+        <div class="service">
+            <h3>Habilidade Técnica</h3>
+            <p>Conhecimento em ferramentas de TI,sempre em busca de ganhar mais conhecimento.</p>
+        </div>
+        <div class="service">
+            <h3>Adaptabilidade</h3>
+            <p>Flexibilidade para trabalhar em diferentes ambientes e com novas tecnologias rapidamente.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Redes Sociais: <a href="https://www.instagram.com/miguel.zrti/">Instagram</a> | <a href="https://github.com/zrbti?tab=repositories">GitHub</a></p>
+    <p>Meio de Contato: Miguelrag969@gmail.com</p>
+</footer>
+
+</body>
+</html>
